@@ -4,4 +4,4 @@ This web application was built from scratch and its purpose is to showcase the d
 
 <img src="./assets/images/preview.png" id="search" alt="Preview of the website" />
 
-https://negronmarc.github.io/portfolio.git
+https://negronmarc.github.io/portfolio/
