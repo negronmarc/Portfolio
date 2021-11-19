@@ -11,7 +11,7 @@ This web application was built from scratch and its purpose is to showcase the d
 
 ## Image
 
-![Preview]()
+![Preview](https://github.com/negronmarc/portfolio/blob/main/assets/images/preview.png?raw=true)
 
 ## Launch
 
