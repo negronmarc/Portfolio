@@ -1,133 +1,140 @@
 header {
-    padding: 10px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #DC4423;
+  padding: 10px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  background-color: #dc4423;
 }
 
 h1 {
-    display: inline-block;
-    font-size: 45px;
+  display: inline-block;
+  font-size: 45px;
 }
 
 nav {
-    display: flex;
-    justify-content: flex-end;
-    font-size: 20px;
-    background-color: #23BBDC;
+  display: flex;
+  justify-content: flex-end;
+  font-size: 20px;
+  background-color: #23bbdc;
 }
 
 li {
-    display: inline-block;
-    margin: 10px;
+  display: inline-block;
+  margin: 10px;
 }
 
 a {
-    color: #DC4423;
-    text-decoration: none;
+  color: #dc4423;
+  text-decoration: none;
 }
 
 #portrait {
-    height: 200px;
-    margin-top: 50px;
+  height: 200px;
+  margin-top: 50px;
 }
 
 figure {
-    height: 300px;
-    width: 100%;
-    margin-left: 0px;
-    background-image: url("../images/background.jpg");
-    background-size: cover;
-    background-position: center;
+  height: 300px;
+  width: 100%;
+  margin-left: 0px;
+  background-image: url("../images/background.jpg");
+  background-size: cover;
+  background-position: center;
 }
 
 #description {
-    background-color: #DC4423;
-    padding: 10px;
-    margin: 0;
+  background-color: #dc4423;
+  padding: 10px;
+  margin: 0;
+}
+
+#resume {
+  color: white;
 }
 
 #projects {
-    text-align: center;
+  text-align: center;
 }
 
-#refactor {
-    width: 60%;
-    height: 60%;
-    background-color: #23BBDC;
-    margin: 10px;
-    padding: 20px;
-    border: 5px solid #DC4423;
+#pokebeats {
+  width: 60%;
+  height: 60%;
+  background-color: #23bbdc;
+  margin: 10px;
+  padding: 20px;
+  border: 5px solid #dc4423;
 }
 
 #columns {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 
 .projects2 {
-    background-color: #23BBDC;
-    padding: 30px;
-    flex: 0 0 220px;
-    margin: 10px;
-    border-radius: 50px 10px;
+  background-color: #23bbdc;
+  padding: 30px;
+  flex: 0 0 220px;
+  margin: 10px;
+  border-radius: 50px 10px;
 }
- 
+
 .other {
-    width: 100%;
+  width: 100%;
 }
 
 .infophotos {
-    display: inline-flex;
-    margin: 25px;
-    width: 150px;
-    height: 150px;
+  display: inline-flex;
+  margin: 25px;
+  width: 150px;
+  height: 150px;
 }
 
 footer {
-    padding: 1px;
-    font-size: 25px;
-    text-align: center;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: #23BBDC;
-    background-color: #DC4423;
+  padding: 1px;
+  font-size: 25px;
+  text-align: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: #23bbdc;
+  background-color: #dc4423;
 }
 
 @media screen and (max-width: 992px) {
-    body {
+  body {
     width: 50%;
-    }
-    header {
-    background-color: #23BBDC;
-    }
-    nav {
-    background-color: #DC4423;
-    }
-    a {
-    color: #23BBDC;
-    }
-    footer {
-    background-color: #23BBDC;
-    color: #DC4423;
-    }
+  }
+  header {
+    background-color: #23bbdc;
+  }
+  nav {
+    background-color: #dc4423;
+  }
+  a {
+    color: #23bbdc;
+  }
+  footer {
+    background-color: #23bbdc;
+    color: #dc4423;
+  }
 }
 
 @media screen and (max-width: 768px) {
-    body {
+  body {
     width: 100%;
-    }
-    header {
-    background-color: #DC4423;
-    }
-    nav {
-    background-color: #23BBDC;
-    }
-    a {
-    color: #DC4423;
-    }
-    footer {
-    background-color: #DC4423;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: #23BBDC;
-    }
+  }
+  header {
+    background-color: #dc4423;
+  }
+  nav {
+    background-color: #23bbdc;
+  }
+  a {
+    color: #dc4423;
+  }
+  footer {
+    background-color: #dc4423;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+    color: #23bbdc;
+  }
 }
