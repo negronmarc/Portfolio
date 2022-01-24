@@ -1,0 +1,155 @@
+header {
+  padding: 10px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  background-color: #dc4423;
+}
+
+h1 {
+  display: inline-block;
+  font-size: 45px;
+}
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 20px;
+  background-color: #23bbdc;
+}
+
+li {
+  display: inline-block;
+  margin: 10px;
+}
+
+a {
+  color: #dc4423;
+  text-decoration: none;
+  text-align: center;
+}
+
+#portrait {
+  height: 200px;
+  margin-top: 50px;
+}
+
+figure {
+  height: 300px;
+  width: 100%;
+  margin-left: 0px;
+  background-image: url("../images/background.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+#description {
+  background-color: #dc4423;
+  padding: 10px;
+  margin: 0;
+  color: white;
+}
+
+#resume {
+  color: white;
+}
+
+#projects {
+  text-align: center;
+}
+
+.group-projects {
+  width: 60%;
+  height: 60%;
+  background-color: #23bbdc;
+  margin: 10px;
+  padding: 20px;
+  border: 5px solid #dc4423;
+}
+
+#columns {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.projects2 {
+  background-color: #23bbdc;
+  padding: 30px;
+  flex: 0 0 220px;
+  margin: 10px;
+  border-radius: 50px 10px;
+}
+
+.deployed-link {
+  width: 100%;
+  padding: 5px;
+  width: 260px;
+  height: 200px;
+}
+
+.info-photos {
+  display: inline-flex;
+  width: 120px;
+  height: 120px;
+  padding: 20px;
+}
+
+footer {
+  padding: 1px;
+  font-size: 25px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: #23bbdc;
+  background-color: #dc4423;
+  width: 100%;
+  text-align: center;
+  justify-content: space-evenly;
+}
+
+@media screen and (max-width: 992px) {
+  body {
+    width: 50%;
+  }
+  header {
+    background-color: #23bbdc;
+  }
+  nav {
+    background-color: #dc4423;
+  }
+  a {
+    color: #23bbdc;
+  }
+  footer {
+    background-color: #23bbdc;
+    color: #dc4423;
+  }
+  #poke-beats {
+    width: 80%;
+    height: 80%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    width: 100%;
+  }
+  header {
+    background-color: #dc4423;
+  }
+  nav {
+    background-color: #23bbdc;
+  }
+  a {
+    color: #dc4423;
+  }
+  footer {
+    background-color: #dc4423;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+    color: #23bbdc;
+  }
+  #poke-beats {
+    width: 80%;
+    height: 80%;
+  }
+}
