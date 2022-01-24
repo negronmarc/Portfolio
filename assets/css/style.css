@@ -46,6 +46,7 @@ figure {
   background-color: #dc4423;
   padding: 10px;
   margin: 0;
+  color: white;
 }
 
 #resume {
@@ -56,7 +57,7 @@ figure {
   text-align: center;
 }
 
-#pokebeats {
+#poke-beats {
   width: 60%;
   height: 60%;
   background-color: #23bbdc;
@@ -79,29 +80,30 @@ figure {
   border-radius: 50px 10px;
 }
 
-.other {
+.deployed-link {
   width: 100%;
   padding: 5px;
-  width:  260px;
+  width: 260px;
   height: 200px;
-
 }
 
-.infophotos {
+.info-photos {
   display: inline-flex;
-  margin: 25px;
-  width: 150px;
-  height: 150px;
+  width: 120px;
+  height: 120px;
+  padding: 20px;
 }
 
 footer {
   padding: 1px;
   font-size: 25px;
-  text-align: center;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
   color: #23bbdc;
   background-color: #dc4423;
+  width: 100%;
+  text-align: center;
+  justify-content: space-evenly;
 }
 
 @media screen and (max-width: 992px) {
@@ -120,6 +122,10 @@ footer {
   footer {
     background-color: #23bbdc;
     color: #dc4423;
+  }
+  #poke-beats {
+    width: 80%;
+    height: 80%;
   }
 }
 
@@ -141,5 +147,9 @@ footer {
     font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
       "Lucida Sans", Arial, sans-serif;
     color: #23bbdc;
+  }
+  #poke-beats {
+    width: 80%;
+    height: 80%;
   }
 }
