@@ -1,18 +1,24 @@
 # Portfolio
 
-## General-info
+## Description
 
-This web application was built from scratch and its purpose is to showcase the different skills I have through projects I have worked on in the past. The website itself displays my knowledge of flexbox, media queries, and css variables. 
+This web application was built from scratch and its purpose is to showcase the different skills I have through projects I have worked on in the past. The website itself displays my knowledge of flexbox, media queries, and css variables.
+
+## Table of Contents
+
+- [Technologies](#technologies)
+- [Preview](#preview)
+- [Launch](#launch)
 
 ## Technologies
 
-- HTML5
+- HTML
 - CSS
 
-## Image
+## Preview
 
-![Preview](https://github.com/negronmarc/portfolio/blob/main/assets/images/preview.png?raw=true)
+![Preview](./assets/images/preview.png)
 
 ## Launch
 
-https://negronmarc.github.io/portfolio/
+[Github Pages](https://negronmarc.github.io/Portfolio/)
